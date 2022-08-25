@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pattern.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="logotipo">
+                <a href="index.html"><img  id="imagem-logo" src="img/shoes-logo-2 1.png" alt="Logo loja"></a>
+            </div>
+            <div class="menu-navegacao">
+                <nav>
+                    <ul id="menu">
+                        <li><a href="#">TODOS OS PRODUTOS</a></li>
+                        <li><a href="#">COLEÇÕES</a></li>
+                        <li><a href="#">OUTLET</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <div class="container-3">
+        <div class="formulario">
+            <h1>Faça parte do nosso time</h1>
+                <form action="/pagina-processa-dados-do-form" method="post">
+            <div>
+                <label for="nome" id="nome-label">Nome</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div>
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="tel" id="tel-label">Telefone</label>
+                <input type="tel" id="tel" name="tel">
+            </div>
+            <div>
+                <label for="dep" id="dep-label">Departamentos</label>
+                <select id="dep"></select>
+            </div>
+            <div class="disp">
+                <div>
+                    <label for="disp" id="disp-label">Disponibilidade</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="disp" name="disp" value="Integral (8h)">   Integral (8h)
+                    <input type="checkbox" id="disp" name="disp" value="Meio período (4h)">   Meio período (4h)
+                    <input type="checkbox" id="disp" name="disp" value="Freelancer">   Freelancer
+                </div>
+            </div>
+            <div class="pergunta">
+                <div>
+                    <label for="pergunta" id="pergunta-label">Qual a melhor forma para entrarmos em contato com você?</label>
+                </div>
+                <div>
+                    <input type="radio" id="pergunta" name="pergunta" value="email">   Email
+                    <input type="radio" id="pergunta" name="pergunta" value="ligacao">   Ligação
+                    <input type="radio" id="pergunta" name="pergunta" value="whatsapp">   WhatsApp
+                </div>
+            </div>
+            <div>
+                <label for="msg" id="msg-label">Mensagem:</label>
+                <textarea id="msg"></textarea>
+            </div>
+            <div>
+                <label for="upload" id="upload-label">Currículo</label>
+                <button type="button" id="upload" name="upload">upload</button>
+            </div>
+            <div>
+                <button type="submit" id="enviar">Enviar</button>
+            </div>
+                </form>
+        </div>
+    
+        <div class="txt">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+            
+    </div>
+</main>
+
+    <footer>
+        <div class="rodape">
+            <div class="logo-rodape">
+                <img id="img-logo-rodape" src="img/shoes-logo-white-3 1.png" alt="Logo rodapé">
+                <p id="texto-rodape">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="container-rodape">
+                <div class="categoria">
+                    <ul>
+                        <li>
+                            <p>categorias</p>
+                            <a href="">sandálias</a>
+                            <a href="">botas</a>
+                            <a href="">tênis</a>
+                            <a href="">oxford</a>
+                            <a href="">coturnos</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="institucional">
+                    <ul>
+                        <li>
+                            <p>institucional</p>
+                            <a href="">sobre nós</a>
+                            <a href="">perguntas frequentes</a>
+                            <a href="">política de privacidade</a>
+                            <a href="">rastreamento de pedidos</a>
+                            <a href="cadastro.html" target="_blank">trabalhe conosco</a>
+                            <a href="">contato</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+</footer>
+
+</body>
+</html>

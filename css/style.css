@@ -1,0 +1,175 @@
+
+main{
+    width: 100%;
+}
+
+#imagem-principal {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 400%;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 3%;
+}
+
+.container-1{
+    width: 100%;
+    padding-bottom: 8%;
+}
+
+.container-cards-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+
+#imagem-card-1{
+    width: 100%;
+}
+
+.banner-2 {
+    background-color: #C2185B;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.card-calcado {
+    background-color: #FFFFFF;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.descricao h3 { 
+    font-size: 16px;
+}
+
+.descricao h4 {
+    font-size: 14px;
+}
+
+.container-detalhe {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.card-detalhe {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-detalhe p{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+#btn {
+    background-color: #C2185B;
+    width: 80%;
+    height: 80px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#imagem-sandalia-matelasse {
+    width: 100%; 
+}
+
+.card-modelo{
+    width: 35%;
+}
+
+#imagem-modelo-sandalia {
+    width: 90%;
+}
+
+@media(max-width: 390px){
+    .container-1 h1{
+        font-size: 16px;
+    }
+
+    .container-2 h3{
+        font-size: 8px;
+    }
+
+    .container-2 h4{
+        font-size: 6px;
+    }
+
+    .card-detalhe p{
+        font-size: 10px;
+    }
+
+    #btn{
+        font-size: 8px;
+        height: 19px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* PÁGINA FOMRULÁRIO
+.container-3 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    
+}
+
+input {
+    padding-top: 20px;
+} /*

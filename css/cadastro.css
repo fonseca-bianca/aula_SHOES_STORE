@@ -1,0 +1,89 @@
+.container-3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    color: #575757;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.formulario{
+    width: 40%;
+}
+
+.disp, .pergunta{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#nome-label, #email-label, #tel-label, #dep-label, #msg-label, #disp-label, #pergunta-label, #upload-label{
+    color: #9B9B9B;
+}
+
+#nome, #email, #tel, #dep, #msg{
+    width: 100%;
+    margin-bottom: 10px;
+    color: #9B9B9B;
+}
+
+#disp, #pergunta{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding-left: 50px;
+    color: #777777;
+}
+
+#disp-label {
+    width: 100%;
+}
+
+#upload{
+    background-color: #C4C4C4;
+    width: 30%;
+    height: 20px;
+    border: none;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+#enviar{
+    width: 100%;
+    height: 30px;
+    background-color: #C2185B;
+    border: none;
+    color: #FFFFFF;
+}
+
+.txt{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #575757;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 20px;
+}
+
+.txt p{
+    font-size: 16px;
+}
+
+@media (max-width: 390px){
+    .formulario{
+        width: 90%;
+    }
+
+    .txt{
+        width: 90%;
+    }
+}
